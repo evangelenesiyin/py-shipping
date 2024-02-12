@@ -10,7 +10,7 @@ A Python script to calculate shipping prices according to weight. Type the weigh
 - Python's `try... except ValueError` is similar to JavaScript's `try... catch(error)` which I am familiar with.
 - Python's `locale` library: Specifies how numbers should be formatted e.g. two decimal places, with thousands separators.
 
-I spent some time figuring out the logic to validate inputs and used a nested `while` loop to check the input for its validity before checking against the conditionals. 
+I spent some time figuring out the logic to validate inputs and used a nested `while` loop to check the input for its validity before checking against other conditionals to calculate the prices. 
 
 As nested loops are generally `O(n^2)` in terms of time complexity, the usage of nested loops for this case turns out to be `O(n)`. The following is happening:
 - The outer loop runs indefinitely until the script is manually terminated.
