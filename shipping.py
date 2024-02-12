@@ -11,6 +11,7 @@ while True:
             response = input(
                 "The script is now stopped. Type 'start' to restart the script: ")
             if response.lower() == 'start':
+                print("==================================")
                 continue
 
         try:
@@ -74,3 +75,4 @@ while True:
             break
         except ValueError:
             print("The input is invalid.")
+            print("==================================")
